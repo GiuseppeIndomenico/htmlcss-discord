@@ -268,7 +268,7 @@ select {
     flex-direction: row;
     border-bottom: 1px solid var(--mark);
     justify-content: space-between;
-    padding: 2rem
+    padding: 1rem
 }
 
 .foo-ntainer {
@@ -418,7 +418,6 @@ max-width: 575px;}
 .bg-photo{
     flex-direction: row;
     align-content: center;
-    background-image: url(../img/itemp2.svg);
     background-color: var(--primary-color);
     width: 420px;
     background-repeat: no-repeat;
@@ -427,7 +426,27 @@ max-width: 575px;}
     
 }
 
-.debug{
-    border: 1px solid black;
+#ios{
+    background-image: url(../img/itemp2.svg);
+}
 
+#linux{
+    background-image: url(../img/itemp4.svg);
+    background-size: contain;
+}
+
+#android{
+    background-image: url(../img/itemp3.svg);
+}
+
+#mac{
+    background-image: url(../img/itemp5.svg);
+    background-size: contain;
+}
+
+#card-ot{
+    text-align: left;
+    padding: 1rem;
+    
+    
 }
