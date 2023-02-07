@@ -338,38 +338,45 @@ i:hover {
 /*pagina downloads*/
 
 
-.download{
+/*header dowload*/
+
+.download {
     background-color: var(--bg-footer);
 }
 
-.dwnl{
+.dwnl {
     color: var(--secondary-color);
 }
 
-.text-header.dwnl{
+.text-header.dwnl {
     max-width: 1400px;
 
 }
 
-.reverse.dwnl-hero{
+.hdr{
+    margin-bottom: 5rem;
+}
+
+.reverse.dwnl-hero {
     align-items: center;
     align-content: center;
     color: var(--secondary-color);
     display: flex;
     max-width: 1200px;
-    margin:0 auto;
+    margin: 0 auto;
 
 }
 
-h1.dwnl, p.dwnl{
+h1.dwnl,
+p.dwnl {
     color: var(--secondary-color);
 }
 
-h1.dwnl{
+h1.dwnl {
     font-size: 80px;
 }
 
-.mark-b{
+.mark-b {
     background-color: var(--mark);
     color: var(--secondary-color);
     margin-top: 2rem;
@@ -378,3 +385,38 @@ h1.dwnl{
     border-radius: 30px;
 }
 
+.cont-dwnl{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.card{
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 40px;
+    padding-bottom: 0;
+    border-radius: 20px;
+    margin: 1rem;}
+
+.card>h2{
+    color: black;
+}
+
+.bg-photo{
+    flex-direction: row;
+    align-content: center;
+    background-image: url(../img/itemp2.svg);
+    background-color: var(--primary-color);
+    width: 450px;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    
+}
+
+.debug{
+    border: 1px solid black;
+
+}
