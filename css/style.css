@@ -181,10 +181,8 @@ h2 {
 
 footer {
     background-color: var(--bg-footer);
-    max-width: 1200px;
     margin: 0 auto;
     color: var(--secondary-color);
-    height: 500px;
     text-align: left;
 
 }
@@ -205,7 +203,7 @@ select {
     color: var(--secondary-color);
 }
 
-footer {
+.top-footer {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
