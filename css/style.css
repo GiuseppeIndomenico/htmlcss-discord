@@ -66,10 +66,13 @@ nav button {
     text-align: center;
     background-size: cover;
     height: 670px;
+    background-position: center;
 }
 
-.text-header{max-width: 800px;
-margin: auto;}
+.text-header {
+    max-width: 800px;
+    margin: auto;
+}
 
 h1 {
     padding: 2rem;
@@ -87,6 +90,12 @@ button {
     padding: .6rem;
     min-width: 4.5rem;
     font-weight: 500;
+}
+
+button:hover {
+    box-shadow: 0px 0 10px 0 black;
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 
@@ -118,15 +127,29 @@ button {
 
 /*inizio main*/
 
+
 main {
     min-width: 800px;
+}
+
+.wave {
+    margin: -5px
+}
+
+.upsidedown {
+    transform: rotate(180deg);
 }
 
 .container {
     display: flex;
     max-width: 1180px;
-    margin: 20rem auto;
+    margin: 15rem auto;
     margin-bottom: 0;
+}
+
+.sec-bg {
+    background-color: var(--primary-color);
+    padding: 40px
 }
 
 .article {
@@ -140,6 +163,12 @@ main {
     color: black;
     text-align: left;
     padding: 1rem;
+
+}
+
+.article>p {
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .reverse {
@@ -161,9 +190,19 @@ main {
     background-color: var(--primary-color);
 }
 
-h2 {
+h2,
+.ready {
     color: black;
     font-size: 30px;
+}
+
+.twinkle {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: contain;
+    background-position: center;
+
 }
 
 #lbm {
@@ -174,6 +213,12 @@ h2 {
     padding: .7rem;
     border-radius: 30px;
 
+}
+
+.c-button {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 
@@ -210,7 +255,7 @@ select {
     flex-direction: row;
     border-bottom: 1px solid var(--mark);
     justify-content: space-between;
-    padding:2rem
+    padding: 2rem
 }
 
 .foo-ntainer {
@@ -231,14 +276,47 @@ select {
 
 .foo-ntainer ul li {
     padding: .5rem;
- 
+
 
 }
-.siti-correlati{
+
+.foo-ntainer ul li a {
+    color: var(--secondary-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.siti-correlati {
     margin: 1rem;
- 
+
 }
 
-i{
+i {
     margin: .5rem;
+}
+
+select,
+i:hover {
+    cursor: pointer;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 1.5rem .5rem;
+    margin: auto;
+
+}
+
+.footer-bottom img {
+    width: 120px;
+}
+
+.footer-bottom button {
+    background-color: var(--mark);
+    color: var(--secondary-color);
 }
