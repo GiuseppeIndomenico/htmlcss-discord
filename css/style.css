@@ -341,3 +341,40 @@ i:hover {
 .download{
     background-color: var(--bg-footer);
 }
+
+.dwnl{
+    color: var(--secondary-color);
+}
+
+.text-header.dwnl{
+    max-width: 1400px;
+
+}
+
+.reverse.dwnl-hero{
+    align-items: center;
+    align-content: center;
+    color: var(--secondary-color);
+    display: flex;
+    max-width: 1200px;
+    margin:0 auto;
+
+}
+
+h1.dwnl, p.dwnl{
+    color: var(--secondary-color);
+}
+
+h1.dwnl{
+    font-size: 80px;
+}
+
+.mark-b{
+    background-color: var(--mark);
+    color: var(--secondary-color);
+    margin-top: 2rem;
+    font-size: 20px;
+    padding: .7rem;
+    border-radius: 30px;
+}
+
