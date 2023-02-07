@@ -11,7 +11,9 @@
     --primary-color: #f6f6f6;
     --secondary-color: #ffffff;
     --mark: #7485d6;
+    --lightmark:#7e7ef0;
     --bg-footer: #23272a;
+    --lightdark:#36393f;
 }
 
 header {
@@ -94,12 +96,18 @@ button {
 
 button:hover {
     box-shadow: 0 4px 10px 0 black;
-    opacity: 0.9;
     cursor: pointer;
 }
 
 .light:hover{
     color: var(--mark);
+}
+
+.dark:hover{
+    background-color: var(--lightdark);
+}
+.lille:hover{
+    background-color: var(--lightmark);
 }
 
 
