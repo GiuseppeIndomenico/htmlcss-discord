@@ -11,9 +11,9 @@
     --primary-color: #f6f6f6;
     --secondary-color: #ffffff;
     --mark: #7485d6;
-    --lightmark:#7e7ef0;
+    --lightmark: #7e7ef0;
     --bg-footer: #23272a;
-    --lightdark:#36393f;
+    --lightdark: #36393f;
 }
 
 header {
@@ -99,14 +99,15 @@ button:hover {
     cursor: pointer;
 }
 
-.light:hover{
+.light:hover {
     color: var(--mark);
 }
 
-.dark:hover{
+.dark:hover {
     background-color: var(--lightdark);
 }
-.lille:hover{
+
+.lille:hover {
     background-color: var(--lightmark);
 }
 
@@ -331,4 +332,12 @@ i:hover {
 .footer-bottom button {
     background-color: var(--mark);
     color: var(--secondary-color);
+}
+
+
+/*pagina downloads*/
+
+
+.download{
+    background-color: var(--bg-footer);
 }
