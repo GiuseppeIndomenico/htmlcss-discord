@@ -68,13 +68,16 @@ nav button {
     height: 670px;
 }
 
+.text-header{max-width: 800px;
+margin: auto;}
+
 h1 {
     padding: 2rem;
     font-size: 48px;
 }
 
 .jumbo p {
-    margin-bottom: 1rem;
+    line-height: 1.7;
     font-size: 20px;
 }
 
